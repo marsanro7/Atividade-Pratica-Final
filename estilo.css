@@ -1,0 +1,225 @@
+@charset "UTF-8";
+	
+	
+		
+	main#principal img.fundo{
+		position: absolute;
+		width: 1410px;
+		height: 100%;	
+		opacity: 0.5;
+	}	
+	
+	main#principal{
+		position: relative;
+		width: 1410px;
+		margin: -20px auto 0px auto;
+		padding: 2px;
+	}	
+	
+	header{
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 150px;
+		box-shadow: 4px 4px 4px black;
+		background-color:  #a5315a ;
+	}	
+	header img.logomarca{
+		position: absolute;
+		height: 150px;
+		left: 40%;
+		top: 1px;
+		width: 240px;
+	}
+	
+	nav#menu{
+		position: absolute;
+		display: block;
+		width: 200px;
+		height: 850px;
+		right: 5px;
+		top: 200px;
+		margin: -40px auto 0px auto;
+		border: 0px solid white;
+		box-shadow: 8px 8px 8px black;
+		background-color: #a5315a;
+	}
+	nav#menu ul{
+		list-style: none;
+		display: block;
+		font-size: 18px;
+		padding: 1px;
+		text-transform: uppercase;
+		transition: background-color;
+	}
+	
+	#menu li:hover{
+		background-color: #936f7c;
+	}	
+	nav#menu li{
+		padding: 20px;
+	}
+	nav#menu a{
+		color: white;
+		padding: 10px;
+		font-weight: bolder;
+		text-decoration: none;
+		opacity: 0.8;
+	}
+	nav#menu h3{
+		position: absolute;
+		font-size: 22px;
+		font-weight: bolder;
+		color: black;
+		left: 40px;
+	}
+    a.zap{
+		position: relative;
+		top: 60px;
+		left: 120px;
+	}	
+	table.iconsocial{
+		position: absolute;
+		top: 600px;
+		left: 10px;
+	}
+	
+	section#secao{
+		position: relative;
+		width: 400px;
+		left: -220px;
+		margin: 2px auto 0px auto;
+		padding: 40px;
+		top: -10px;
+	}	
+	section#secao h1{
+		position: absolute;
+		font-size: 35px;
+		font-weight: bold;
+		color: #101b86;
+		top: 15px;
+		left: 40%;
+	}
+	section#secao figure{
+		border: 8px solid white;
+		box-shadow: 3px 3px 4px black;
+		margin-top: 90px;
+		margin-left: -10px;
+		margin-bottom: -50px;
+	}	
+	table#produtos{
+		color: #101b86;
+		top: 100px;
+	}	
+	
+	#produtos figcaption:hover{
+		background-color: #5cc6c7;
+	}	
+	#produtos figcaption{
+		position: relative;
+		border: 1px solid white;
+		background-color: #805e48;
+		
+	}
+	#produtos figcaption a{
+		text-decoration: none;
+		color: white;
+	}
+	aside#esquerda{
+		position: relative;
+		left: 10px;
+		top: 5px;
+		height:850;
+		display: block;
+		float: left;
+		width: 200px;
+		padding: 7px;
+		border-right: 5px solid white;	
+	}	
+	aside#esquerda h1{
+		font-size: 25px;
+		font-weight: bold;
+		color: #101b86;
+	}
+	#esquerda img{
+		left: 10px;
+	}	
+	footer#rodape{
+		position: relative;
+		width: 100%;
+		height: 260px;
+		left: -5px;
+		clear: both;
+		display: block;
+		border: 5px solid white;
+		background-color:  #a9687f;
+		font-size: 16px;
+		color: white;
+	}
+	#rodape h3{
+		font-size: 20px;
+		color: #7b2828;
+		font-weight: bold;	
+	}
+	
+	#rodape .contato{
+		position: absolute;
+		width: 300px;
+		height: 230px;
+		border-right: 2px solid white;
+		top: -2px;
+		left: 10px;
+	}
+	.contato input{
+		width: 230px;
+		height: 15px;
+		border: 3px solid #606060;
+	}	
+	.contato textarea{
+		width: 230px;
+		height: 50px;
+		border: 3px solid #606060;
+	}	
+	.contato button{
+		width: 100px;
+		height: 20px;
+		border: 3px solid #606060;
+	}	
+	
+	#rodape .pagto{
+		position: absolute;
+		width: 350px;
+		height: 230px;
+		border-right: 2px solid white;
+		top: -2px;
+		left: 350px;
+	}
+	#rodape .horario{
+		position: absolute;
+		width: 350px;
+		height: 230px;
+		border-right: 2px solid white;
+		top: -2px;
+		left: 750px;
+	}
+		
+	#rodape .localizacao{
+		position: absolute;
+		width: 350px;
+		height: 230px;
+		border-right: 2px solid white;
+		top: -2px;
+		left: 1150px;
+	}
+	.localizacao img{
+		position: relative;
+		left: -60px;	
+	
+	}	
+	.localizacao figcaption{
+		position: relative;
+		left: 10px;	
+		top: -60px;
+	}	
+		
+	
